@@ -1,0 +1,13 @@
+train: D:/yolov8n/pretrain_data2/train/images
+val: D:/yolov8n/pretrain_data2/valid/images
+#test: ./test/images
+
+nc: 1
+names: ['container']
+
+roboflow:
+  workspace: competition-e1bat
+  project: first-otlyl
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/competition-e1bat/first-otlyl/dataset/2
